@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyAbsen</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">MyAbsen</div>
+        <div style="font-size: 14px; color: #6b7280;">V1.0</div>
+    </div>
+
+    <main class="main">
+        <h1>Unduh Aplikasi MyAbsen</h1>
+        <p>Gunakan aplikasi resmi untuk absensi digital di sekolah atau komunitas kamu. Tersedia untuk Android.</p>
+
+        <div class="download-area">
+            <div class="card">
+                <img src="images/playstore.png" alt="Android">
+                <h3 class="card-title">Android</h3>
+                <p class="card-desc">Unduh file APK langsung dan install di perangkat Android kamu.</p>
+                <a href="https://github.com/filecihuy/filecihuy.github.io/raw/refs/heads/main/MyAbsen.apk" class="btn-download">
+                    Play Store
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="images/ios.png" alt="iOS">
+                <h3 class="card-title">iOS</h3>
+                <p class="card-desc">Segera hadir di App Store untuk perangkat iOS kamu.</p>
+                <div class="btn-download" onclick="showToast()">App Store</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        &copy; 2025 MyAbsen. All rights reserved.
+    </footer>
+
+    <div id="toast" class="toast">Belum tersedia di App Store</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
